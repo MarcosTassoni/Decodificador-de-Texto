@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="style_decodificador.css">
+	<script type="text/javascript" src="botão_copia.js"></script>
 
-You can use the [editor on GitHub](https://github.com/MarcosTassoni/Decodificador-de-Texto/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+	<title>Decodificador</title>
+</head>
+<body>
+	<header>		
+		<h1><img src="logoalura.png" alt="Logo da alura com inicial da letra a"></h1>
+		<h6 class="descricao">Digite um texto que você deseja Criptografar ou Descriptografar.</h6>
+	</header>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<main class="main">
+		<section>
+        <textarea class="input-texto" cols="40" rows="6" placeholder="Digite seu texto:"></textarea>
+        <input type="hidden" class="input-original-oculto">
+        <div>
+            <h6 class="informacao">Apenas letras maiúsculas e minúsculas</h6>
+        </div>
+        <div class="botoes">
+            <button class="encriptar" onclick="btnEncriptar()">
+                Criptografar   
+            </button>
+            <button class="desencriptar" onclick="btnDesencriptar()">
+                Descriptografar
+            </button>
+            
+           
 
-### Markdown
+        </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        </section>
+       
+        		
+        	
 
-```markdown
-Syntax highlighted code block
+        <section>
+        <textarea class="mensagem" cols="18" rows="8">
+			
+        </textarea>
+        
+        <button class="copiar" onclick="btnCopiar()">
+        	Copiar
+        </button>
+        </section>
+        
+    </main>
+    <script src="script_decodificador.js"></script>
 
-# Header 1
-## Header 2
-### Header 3
+		
+	</main>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MarcosTassoni/Decodificador-de-Texto/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+	<footer>
+		<img src="logoalura.png" alt="Logo da alura com inicial da letra a">
+		<p class="copyright">&copy; Marcos Tassoni - 2022</p>
+	</footer>
+</body>
+</html>
