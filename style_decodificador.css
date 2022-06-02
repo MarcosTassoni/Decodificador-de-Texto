@@ -1,0 +1,107 @@
+
+header {
+    margin-left: 80px;
+ }  
+.descricao {
+    text-align: center;
+    font-size: 30px
+}
+
+* {
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+body {
+    background-color: #F3F5FC;
+
+}
+
+.main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+
+.input-texto {
+    margin-top: 90px;
+    
+}
+
+.mensagem {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 90px;
+    background-image: url("imagens/boneca2.png");
+    background-repeat: no-repeat;
+}
+
+.copiar {
+    background-color: white;
+    color: black;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow:  10px 10px 10px 0 #000000;
+    margin-left: 90px;
+    }
+
+.copiar:hover {
+    opacity: 0.3;
+}
+
+.botoes, .copiar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+.encriptar {
+    background-color: darkblue;
+    color: white;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow:  10px 10px 10px 0 #000000;
+    border-radius: 25px;
+
+}
+
+.encriptar:hover {
+    opacity: 0.3;
+}
+
+.desencriptar {
+    margin-left: 30px;
+    background-color: darkblue;
+    color: white;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow:  10px 10px 10px 0 #000000;
+    border-radius: 25px;
+
+}
+
+.desencriptar:hover {
+    opacity: 0.3;
+}
+
+
+.informacao {
+    font-size: 15px;
+}
+
+footer {
+    background: #BBBBBB;
+    text-align: center;    
+    padding: 40px 0;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
